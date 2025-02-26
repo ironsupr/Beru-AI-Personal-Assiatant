@@ -4,7 +4,7 @@ from dotenv import dotenv_values
 
 env_vars = dotenv_values(".env")
 
-CohereAPIKey = env_vars["CohereAIPKey"]
+CohereAPIKey = env_vars["CohereAPIKey"]
 
 co = cohere.Client(api_key = CohereAPIKey)
 
