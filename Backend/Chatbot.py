@@ -50,7 +50,7 @@ def RealtimeInformation():
     second = current_date_time.strftime("%S")
 
     data = f"Please use this real-time information if needed, \n"
-    data += f"Day: {day}\n Date: {date}\n Month: {month}\n Year: {year}\n Time: {hour} hours :{minute} minutes"
+    data += f"Day: {day}\n Date: {date}\n Month: {month}\n Year: {year}\n Time: {hour} hours :{minute} minutes: {second} seconds.\n"
     return data
 
 def AnswerModifier(Answer):
