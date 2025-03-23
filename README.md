@@ -1,4 +1,4 @@
-# 🤖 JARVIS AI Assistant
+# 🤖 Beru AI Assistant
 
 An advanced AI personal assistant featuring voice interaction, real-time search, and automation capabilities, built with Python.
 
@@ -22,8 +22,8 @@ An advanced AI personal assistant featuring voice interaction, real-time search,
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/JARVIS.git
-cd JARVIS
+git clone https://github.com/ironsupr/Beru-AI-Personal-Assiatant.git
+cd Beru-AI-Personal-Assiatant
 ```
 
 2. Create a virtual environment and activate it:
@@ -48,7 +48,7 @@ Required variables in `.env`:
 
 ```env
 Username=YourName
-Assistantname=JARVIS
+Assistantname=Beru
 GroqAPIKey=your-groq-api-key
 CohereAPIKey=your-cohere-api-key
 HuggingFaceAPIKey=your-huggingface-api-key
@@ -77,7 +77,7 @@ python main.py
 ## 📁 Project Structure
 
 ```
-JARVIS/
+Beru/
 ├── Backend/
 │   ├── Automation.py
 │   ├── Chatbot.py
