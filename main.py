@@ -38,7 +38,7 @@ subprocesses = []
 Functions = ["open", "close", "play", "system", "content", "google search", "youtube search"]
 
 def ShowDefaultChatIfNoChats():
-    chatlog_path = r"Data\Chatlog.json"
+    chatlog_path = r"Data\ChatLog.json"
     if not os.path.exists(chatlog_path) or os.stat(chatlog_path).st_size < 5:
         logging.info("No Chatlog.json or empty file, initializing default chat.")
         try:
@@ -52,7 +52,7 @@ def ShowDefaultChatIfNoChats():
 
 
 def ReadChatLogJson():
-    chatlog_path = r"Data\Chatlog.json"
+    chatlog_path = r"Data\ChatLog.json"
     try:
         with open(chatlog_path, "r", encoding="utf-8") as file:
             chatlog_data = json.load(file)
